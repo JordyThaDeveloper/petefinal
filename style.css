@@ -1,0 +1,181 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+/* page back background color */
+header {
+  text-align: center;
+  background-color: #eae2b7;
+  margin-bottom: 100px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+header a {
+  margin-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.background {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.group {
+  margin: auto;
+  max-width: 600px;
+}
+
+.profile-description {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 5px;
+}
+
+.profile-description h2 {
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.profile-description p {
+  margin: 10px 0;
+}
+
+.profile-description ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.profile-description a {
+  color: #003049;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: space-between;
+  
+}
+
+
+.group2 .item {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1, h2, h3 {
+  text-align: center;
+}
+
+
+#section-1 h2 {
+  margin-top: 20px; /* Adjust the value as needed */
+  margin-bottom: 5px;
+}
+
+#section-1 article {
+  padding-top: 10px; /* Adjust the value as needed */
+}
+article {
+  padding: 50px 0;
+}
+
+#section-1 {
+
+  margin-bottom: 100px;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+  max-width: 200px;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* link styling */
+a:link {
+  color: #d62828;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+a:active {
+  color: pink;
+}
+
+footer {
+  text-align: center;
+}
+
+ol {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+  
+}
+/* Your existing CSS rules */
+
